@@ -78,7 +78,7 @@ ROOT_URLCONF = 'rest_api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['nextjs-api-ika.herokuapp.com'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
