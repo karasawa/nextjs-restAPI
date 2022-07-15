@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nextjs-api-ika.herokuapp.com']
 
 
 # Application definition
@@ -78,7 +78,7 @@ ROOT_URLCONF = 'rest_api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['nextjs-api-ika.herokuapp.com'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
